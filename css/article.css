@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+body {
+	padding-top: 50px;
+}
+
+#fingqooq-article {
+    line-height: 2;
+    font-size: 20px;
+    color: black;
+    font-family: 'Nanum Myeongjo', serif;
+	cursor:url(../img/highlighter.png),text;
+	-webkit-user-select: text;  
+	-moz-user-select: text;    
+	-ms-user-select: text;      
+	user-select: text;
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 940px;
+}
+
+.mousebackward {
+	cursor:url(../img/eraser.png),text !important;
+
+}
+
+.mouseforward *::selection {
+    background: #F6F94A;
+}
+
+.mouseforward *::-moz-selection {
+    background: #F6F94A;
+}
+
+.mousebackward *::selection {
+    background: #DDD;
+}
+
+.mousebackward *::-moz-selection {
+    background: #DDD;
+}
+
+.highlight {
+	background: #F6F94A;
+}
+
+.opecity-0 {
+	opacity: 0;
+}
+
+.panel-body {
+	height: 94px;
+}
+
+.panel-profile {
+	height: 314px;
+	margin-bottom: 20px;
+	padding-top: 50px;
+}
+
+.profile-body {
+	position: relative;
+	height: 264px;
+	background-color: transparent;
+	padding: 0px;
+}
+
+.profile-header {
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	background-color: #d9230f;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+.profile-footer {
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	height: 141px;
+	background-color: #fcfcfc;
+	border: 1px solid #dddddd;
+	padding: 30px;
+}
+
+.profile-footer li{
+	text-align: center;
+	float: left;
+	list-style: none;
+	width: 50%;
+	font-size: 20px;
+}
+
+.profile-footer li .number {
+	font-size: 2em;
+	color: #d9230f;
+}
+
+.profile-footer ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.profile-header > h2 {
+	text-align: center;
+	color: #ffffff;
+}
+
+.profile-body > img {
+	position: absolute;
+	top: -50px;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.article-title {
+	font-size: 16px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	word-wrap:break-word;
+}
+
+.panel-footer > .qooq-info {
+	float: left;
+	padding-top: 5px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.br-white {
+	background: #fff;
+}
+
+.ta-right {
+	text-align: right;
+}
+
+.c-red {
+	color: #d9230f !important;
+}
+
+.fadeout {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.qooq-btn {
+	width: 64px;
+}
+
+/*For font style Start*/
+#fingqooq-article > h1 {
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 30px;
+	font-weight: bold;
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+}
+/*For font style End*/

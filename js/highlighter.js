@@ -205,7 +205,7 @@ var highlighter = function (oOption) {
     this.serialize = function () {
         var oData = {};
         var aSerialized = [];
-        elArticle.innerHTML = elArticle.innerHTML.replace(/[\f\n\r\t\v]/g," ");
+        elArticle.innerHTML = elArticle.innerHTML.replace(/[\f\n\r\t\v]/g,"  ");
         var highlights = document.querySelectorAll("span[style^='background-color: rgb']");
         for (var i = 0, length = highlights.length; i < length; i++) {
             var oEle = {};
